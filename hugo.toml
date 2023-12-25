@@ -1,0 +1,32 @@
+baseURL = 'https://QUICKHELPSYNTHETICURINE.COM'
+languageCode = 'en-us'
+title = 'Quick Help Synthetic Urine'
+theme = 'PaperMod'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  # Logo and name shown on the top left of the site
+  label = { text = "Quick Help Synthetic Urine", icon = "/quick-help-synthetic-urine.png", iconHeight = 150 }
+
+  # Social Icons
+  [[params.socialIcons]] # Twitter Icon
+  name = "twitter"
+  url = "<link>"
+
+  [[params.socialIcons]] # Reddit Icon
+  name = "reddit"
+  url = "<link2>"
+
+  [[params.socialIcons]] # Instagram Icon
+  name = "instagram"
+  url = "<link3>"
+
+  # OpenGraph image setting
+  images = ["/quick-help-synthetic-urine.png"]
+
+  # Link to your custom CSS file
+  customCSS = ["css/custom.css"]

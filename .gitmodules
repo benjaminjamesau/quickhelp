@@ -1,0 +1,3 @@
+[submodual "theme/PaperMod"]
+    path = themes/PaperMod
+    url = "https://github.com/benjaminjamesau/hugo-PaperMod.git"

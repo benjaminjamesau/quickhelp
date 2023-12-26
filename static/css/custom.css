@@ -1,0 +1,9 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(5, auto); /* 5 rows */
+    gap: 10px; /* space between items */
+}
+.grid-item {
+    /* Styles for individual items */
+}

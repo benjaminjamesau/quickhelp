@@ -2,6 +2,9 @@ baseURL = 'https://QUICKHELPSYNTHETICURINE.COM'
 languageCode = 'en-us'
 title = 'Quick Help Synthetic Urine'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+
 
 [markup]
   [markup.goldmark]
